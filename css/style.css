@@ -1491,7 +1491,55 @@ hr {
 .dropdown-toggle::after {
     display: none;
 }
-
+/*  2. banner Style CSS
+/*----------------------------------------*/
+.banner-area{
+    position: relative;
+    padding: 180px 0 220px 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*  3. blog-area Style CSS
+/*----------------------------------------*/
+.blog-area{
+    padding: 100px 0;
+    position: relative;
+}
+article{
+    margin-bottom: 50px;
+}
+article img{
+    border-radius:10px;
+    margin-bottom: 30px;
+}
+article ul li>a{
+    background-color: #009ee3;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 20px;
+    display: block;
+    border-radius: 3px;
+}
+article ul li>a:hover{
+    background-color: #696969;
+    color: #ffffff;
+}
+article .blog-title{
+    margin-bottom: 35px;
+}
+article .publish-date i{
+    color: #009ee3;
+}
+article .publish-date {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #c4c4c4;
+    line-height: 1.2;
+    text-align: left;
+    letter-spacing: 3px;
+}
 /*  10. footer Style CSS
 /*----------------------------------------*/
 .footer-area{
@@ -1507,6 +1555,7 @@ hr {
 }
 .copy-right-text{
   font-size: 16px;
+    color: #8b9094;
 }
 .subscribe-form .input-group{
   border-radius: 10px;
