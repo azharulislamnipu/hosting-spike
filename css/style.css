@@ -1778,6 +1778,7 @@ article h4 {
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 11px 43px 0px rgba(98, 143, 144, 0.15);
+    margin-bottom: 20px;
 }
 
 .text-underline {

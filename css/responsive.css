@@ -1,33 +1,118 @@
+@media (max-width:320px) {
+
+    .pagination-item {
+        padding: 65px 15px;
+    }
+    .pagination-item span {
+        font-size: 26px;
+    }
+}
 @media (max-width: 575.98px) {
     .navbar-expand-lg .navbar-nav .nav-link{
         padding: 10px 0;
     }
-}
+
+    .host-result-box {
+        padding: 20px;
+    }
+    .result-table > thead th,.result-table > tbody td {
+        text-align: center;
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    .block-host ul>li>span{
+        font-size: 16px;
+    }
+    .pagination-item {
+        padding: 65px 15px;
+    }
+    .pagination-item span {
+        font-size: 26px;
+    }
+    .widget-table tr > td.feature-content-item span{
+        width: 200px;
+        display: block;
+    }
+    }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     .navbar-expand-lg .navbar-nav .nav-link{
         padding: 10px 0;
     }
+
+    .host-result-box {
+        padding: 20px;
+    }
+    .result-table > thead th,.result-table > tbody td {
+        text-align: center;
+        font-size: 18px;
+    }
+    .pagination-item {
+        padding: 29px 15px;
+    }
+    .widget-table tr > td.feature-content-item span{
+        width: 200px;
+        display: block;
+    }
+    h4 {
+        font-size: 22px;
+        line-height: 1.25;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .navbar-expand-lg .navbar-nav .nav-link{
+    .navbar-expand-lg .navbar-nav .nav-link {
         padding: 10px 0;
+    }
+
+    .host-result-box {
+        padding: 20px;
+    }
+
+    .result-table > thead th,.result-table > tbody td {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .block-host ul>li>span{
+        font-size: 16px;
+    }
+    .widget-table tr > td.feature-content-item span{
+        width: 200px;
+        display: block;
+    }
+    h4 {
+        font-size: 22px;
+        line-height: 1.25;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .host-result-box {
+        padding: 20px;
+    }
 
+    .result-table > thead th,.result-table > tbody td {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .pagination-item {
+        padding: 45px 15px;
+    }
+    .block-host ul>li>span{
+        font-size: 16px;
+    }
+    .item-price header h2 {
+        font-size: 50px;
+    }
 }
 
 @media (min-width: 1200px) {
 
-}
-
-
-.dd
-{
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Nunito', sans-serif;
 }
