@@ -1400,6 +1400,55 @@ hr {
     /*transition: all 0.4s ease-in-out;*/
 }
 
+
+.header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.header.sticky {
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 50px 0px rgba(7, 51, 112, 0.08);
+    z-index: 9999999999999999999999999999999999999;
+    animation: stuckMoveDown .6s;
+}
+
+@keyframes stuckMoveDown {
+    0% {
+        transform: translateY(-100%)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+@keyframes stuckMoveUp {
+    0% {
+        transform: translateY(100%)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+@keyframes stuckFadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+body .main{
+    margin-top: 108px;
+}
+
+
 .navbar-brand {
     display: inline-block;
     padding-top: 0;
@@ -1542,6 +1591,11 @@ article ul li > a:hover {
 
 article .blog-title {
     margin-bottom: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    display: block;
 }
 
 article .publish-date i {
